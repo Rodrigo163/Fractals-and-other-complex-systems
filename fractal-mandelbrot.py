@@ -54,3 +54,8 @@ def animate(i):
 
 anim = animation.FuncAnimation(fig, animate, frames=45, interval=120, blit=True)
 anim.save('mandelbrot.gif',writer='imagemagick')
+
+
+
+
+
